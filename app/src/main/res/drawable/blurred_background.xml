@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Imagen de fondo difuminada -->
+    <item>
+        <bitmap
+            android:src="@drawable/blur_image"
+            android:gravity="center" />
+    </item>
+    <!-- Capa semitransparente para suavizar el fondo -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#80FFFFFF"/>
+        </shape>
+    </item>
+</layer-list>
